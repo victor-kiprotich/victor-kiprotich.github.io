@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Victor Mutai</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Devicon (tech icons) -->
+  <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+  <!-- Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- moving gradient blobs background -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-left">
+        <a href="#home">Vick Mutai</a>
+    </div>
+    <div class="nav-right">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 id="typewriter" class="typewriter" aria-live="polite"></h1>
+        <p class="tagline">Web Developer</p>
+        <p>I’m Victor Mutai, a self-taught developer who is passionate in coding things that make life easier.
+            I’ve worked on automating data scraping from 60+ company websites, turning hours of work into minutes.
+            Python is my main tool, but I also tinker with HTML, CSS, and JavaScript to bring ideas to life. Using website I create with react framework.
+            I enjoy solving tricky problems and making messy data look clean and useful.
+            For me, coding isn’t just work — it’s a mix of curiosity, creativity, and a bit of fun.</p>
+        <p class="tagline">#Grace.Code.Save.Win.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="https://github.com/Vick-Mutai" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="images/dp.jpg" alt="Victor Mutai" class="avatar">
+      </div>
+    </div>
+
+    <a class="scroll-down" href="#about" aria-label="Scroll to About">⌄</a>
+  </header>
+
+  <!-- ABOUT -->
+<section id="about" class="section container fade-up">
+  <div class="about-grid">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I'm Victor, an enthusiast in the coding field equiped with web develoment skills and also using Python & Playwright to shape data into useful projects. Outside of code, I'm usually video gaming🎮, shooting hoops 🏀, or playing pool 🎱.</p>
+      <p class="muted">Always learning, always improving and delivering quality work.</p>
+
+      <!-- Education -->
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Bachelor's Degree in Computer Science</strong> – Multimedia University of Kenya (2023 - 2026)</li>
+        <li>Specialization in Web Development & Data Automation</li>
+      </ul>
+
+      <!-- Work Experience -->
+      <h3>Work Experience</h3>
+      <ul>
+        <li><strong>Data Automation and Web Developer</strong> – Knorde (2025 - Present)</li>
+        <li>Scraped and automated job listings from 60+ companies using Python & Playwright</li>
+        <li>Built and deployed web-based tools for real-time job tracking</li>
+      </ul>
+    </div>
+
+    <div class="about-media">
+      <div class="hobby-carousel" aria-hidden="false">
+        <img src="images/gaming.jpg" alt="Gaming" class="carousel-img">
+        <img src="images/bake.webp" alt="Basketball" class="carousel-img">
+        <img src="images/pool.jpg" alt="Pool" class="carousel-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container fade-up">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" data-skill="Python">
+        <i class="devicon-python-plain colored"></i>
+        <span>Python</span>
+      </div>
+
+      <div class="skill-card" data-skill="JavaScript">
+        <i class="devicon-javascript-plain colored"></i>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="skill-card" data-skill="HTML5">
+        <i class="devicon-html5-plain colored"></i>
+        <span>HTML & CSS</span>
+      </div>
+
+      <div class="skill-card" data-skill="Git">
+        <i class="devicon-git-plain colored"></i>
+        <span>Git & GitHub</span>
+      </div>
+
+      <div class="skill-card" data-skill="React">
+        <i class="devicon-react-original colored"></i>
+        <span>React</span>
+      </div>
+
+
+      <div class="skill-card" data-skill="Playwright">
+        <i class="fa-solid fa-mask"></i>
+        <span>Playwright</span>
+      </div>
+
+      <div class="skill-card" data-skill="Selenium">
+        <i class="fa-solid fa-robot"></i>
+        <span>Selenium</span>
+      </div>
+
+      <div class="skill-card" data-skill="C">
+        <i class="devicon-c-plain"></i>
+        <span>C / C++</span>
+      </div>
+
+      <div class="skill-card" data-skill="Kotlin">
+        <i class="devicon-kotlin-plain colored"></i>
+        <span>Kotlin</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container fade-up">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <img src="images/proj1.jpg" alt="Job Scraper screenshot" class="proj-thumb">
+        <div class="proj-body">
+          <h3>Data Scraper</h3>
+          <p>Automated scrapers gathering job listings from 60+ companies. Playwright + Python, adapters per platform, CSV/JSON export.</p>
+          <div class="proj-links">
+            <a href="https://vick-mutai.github.io/" class="demo disabled">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/proj2.jpg" alt="$FATE Token screenshot" class="proj-thumb">
+        <div class="proj-body">
+          <h3>$FATE Token</h3>
+          <p>ERC-20 token deployed on Polygon. Smart contract, tokenomics, and initial scripts for minting & distribution.</p>
+          <div class="proj-links">
+            <a href="#" class="demo">Docs</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container fade-up">
+    <h2>Contact</h2>
+    <p class="muted center">Want to collaborate, Request for service or see more projects? Drop a message.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Get in touch</h3>
+        <p>Email me at <a href="victormutai@knorde.com">victormutai@knorde.com</a></p>
+        <p>GitHub — <a href="https://github.com/Vick-Mutai" target="_blank" rel="noopener">Vick-Mutai</a></p>
+        <div class="socials">
+          <a href="https://github.com/Vick-Mutai" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-id" action="https://formspree.io/f/manbvodp" method="POST">
+        <label>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          <input type="email" name="email" placeholder="Your email" required>
+        </label>
+        <label>
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Vick Mutai • #Grace.Code.Save.Win.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
